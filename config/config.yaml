@@ -1,0 +1,16 @@
+rpc_url: "https://api.mainnet-beta.solana.com"
+wallets:
+  - name: "Main Wallet"
+    public_key: "YourPublicKey"
+    private_key: "YourPrivateKey"
+    max_limit: 1000
+tokens:
+  - symbol: "TOKEN"
+    address: "TokenAddress"
+    strategy: "DCA"
+ai_settings:
+  enable: true
+  model: "gpt-4"
+  parameters:
+    risk_tolerance: "medium"
+    max_tokens: 10
